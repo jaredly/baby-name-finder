@@ -1,0 +1,5 @@
+resources/public/js
+.nrepl-port
+figwheel_server.log
+target
+src/om_tutorial/config.cljs

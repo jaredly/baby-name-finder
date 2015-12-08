@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+}
+
+.loading-image {
+    margin-bottom: 20px;
+}
+
+.loading-message {
+    color: #777;
+}
+
+.loading-logo {
+    font-weight: bold;
+}
+
+#app {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

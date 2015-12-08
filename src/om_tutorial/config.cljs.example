@@ -1,0 +1,14 @@
+(ns om-tutorial.config)
+
+(def sync-base
+  {:max-num 2000
+   :max-up 7
+   :num-workers 10
+   :max-down 1})
+
+(def api-base
+  {:base "https://familysearch.org" ; or "https://sandbox.familysearch.org" etc.
+   :client-id "Your app's client id"})
+
+(def token
+  "A FS token here for testing")
